@@ -6,10 +6,10 @@ function Nav() {
       <div>Optics</div>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/">Categories</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Products</a></li>
-        <li><a href="/">Contacts</a></li>
+        <li><a href="/">Glass</a></li>
+        <li><a href="/">Solar</a></li>
+        <li><a href="/">Minus(-)</a></li>
+        <li><a href="/">Plus(+)</a></li>
       </ul>
     </nav>
   );
