@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color: rgb(171, 183, 221);
+    color: black;
     padding: 0 1rem;
   }
   .Nav ul {
@@ -15,7 +15,7 @@
   .Nav a {
     display: block;
     padding: .5rem 1rem;
-    color: white;
+    color: black;
     font-size: .8rem;
     text-decoration: none;
   }
