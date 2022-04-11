@@ -1,15 +1,15 @@
 import "./Nav.css";
+import Logo from "../ui/Logo/Logo";
+import NavItem from "./NavItem/NavItem";
 
 function Nav() {
   return (
     <nav className="Nav">
-      <div>Optics</div>
+      <Logo />
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Glass</a></li>
-        <li><a href="/">Solar</a></li>
-        <li><a href="/">Minus(-)</a></li>
-        <li><a href="/">Plus(+)</a></li>
+        <NavItem url="/">Home</NavItem>
+        <NavItem url="/minus">Minus</NavItem>
+        <NavItem url="/pilus">Pilus</NavItem>
       </ul>
     </nav>
   );
