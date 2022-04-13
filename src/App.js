@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Glass from "./pages/Glass";
 import Solar from "./pages/Solar";
 import Minus from "./pages/Minus";
-import Pilus from "./pages/Pilus";
+import Plus from "./pages/Plus";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/minus" element={<Minus />} />
-        <Route path="/pilus" element={<Pilus />} />
+        <Route path="/plus" element={<Plus />} />
         <Route path="/glass" element={<Glass />} />
         <Route path="/solar" element={<Solar />} />
       </Routes>
