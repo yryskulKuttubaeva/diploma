@@ -1,3 +1,4 @@
+import "./pages.css";
 function Minus() {
     return (
       <article>
