@@ -17,10 +17,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/glass" element={<Glass />} />
-        <Route path="/solar" element={<Solar />} />
         <Route path="/minus" element={<Minus />} />
         <Route path="/pilus" element={<Pilus />} />
+        <Route path="/glass" element={<Glass />} />
+        <Route path="/solar" element={<Solar />} />
       </Routes>
 
       <Footer />
