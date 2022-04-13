@@ -1,3 +1,4 @@
+import "./pages.css";
 function Plus() {
     return (
       <article>
