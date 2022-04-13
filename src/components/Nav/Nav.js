@@ -12,8 +12,6 @@ function Nav() {
         <NavItem url="/pilus">Pilus</NavItem>
         <NavItem url="./solar">Solar</NavItem>
         <NavItem url="./glass">Glass</NavItem>
-        
-
       </ul>
     </nav>
   );
