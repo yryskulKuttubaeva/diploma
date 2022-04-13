@@ -9,7 +9,8 @@ function Header() {
   return (
     <header className="Header" style={style}>
       <h1>I see perfectly</h1>
-      <p>You want to see great too. Then welcome o us</p>
+      <h4 >You want to see great too.</h4> 
+    
      
 
     </header>
