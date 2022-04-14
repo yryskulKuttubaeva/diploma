@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: rgb(148, 148, 219);
+  color: black;
 }
 .Nav ul {
   list-style: none;
