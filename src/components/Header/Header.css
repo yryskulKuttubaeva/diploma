@@ -11,17 +11,13 @@
   }
   .Header h1 {
     margin:  0 ;
-    
-    padding-bottom: 30px;
+    padding-top: 100px;
     padding-right: 50px;
 
   }
   .Header h4 {
     margin:  0 ;
-    
-    padding-bottom: 100px;
+    padding-top: 40px;
     padding-right: 50px;
   }
-   background-image {
-    width: 100%;
-  }
+  
