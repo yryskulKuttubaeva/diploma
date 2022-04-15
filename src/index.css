@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0 8px;
   
-  font-family: 'M PLUS 2', sans-serif;
-    -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inconsolata', monospace;
 }
 
 code {
