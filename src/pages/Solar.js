@@ -1,11 +1,18 @@
-import "./pages.css";
+import "./pages.css"
+import Header from "../components/Header/Header";
+import headerImage from "../assets/solar.jpg";
+
 function Solar() {
-    return (
-      <article>
-        <h1>This is solar page.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex pariatur voluptatum doloribus enim repudiandae ullam sequi quo suscipit voluptas id, laboriosam necessitatibus, dolore corrupti. Explicabo iure doloribus illum repudiandae tenetur.</p>
-      </article>
-    );
-  }
-  
-  export default Solar;
+  return (
+    <>
+      <Header
+        title="Welcome to our optics shop"
+        image={headerImage}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem culpa ab nam nostrum numquam labore veritatis repudiandae, exercitationem sed impedit magni saepe ex sint dolores perferendis assumenda in dolore maiores!
+
+      </Header>
+    </>
+  );
+}
+
+export default Solar;
