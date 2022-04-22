@@ -1,17 +1,48 @@
-import "./pages.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/glass.jpg";
+import GlassList from "../components/GlassList/GlassList";
+
+
+import glassImage from "../assets/glass1.jpg";
+
 function Glass() {
-    return (
-      <>
+  const glass = {
+    hazelnut: {
+      image: glassImage,
+      path: "/",
+      title: "Glass",
+      price: 10,
+    },
+    darkRoast: {
+      image: glassImage,
+      path: "/",
+      title: "Dark roast",
+      price: 12,
+    },
+    houseBlend: {
+      image: glassImage,
+      path: "/",
+      title: "House blend",
+      price: 14,
+    },
+    lightRoast: {
+      image: glassImage,
+      path: "/",
+      title: "Light roast",
+      price: 13,
+    }
+  };
+
+  return (
+    <>
       <Header
-        title="Optics shop"
+        title="I good see!"
         image={headerImage}>
-          
-        The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta.[5] Arabica beans consist of 0.8–1.4% caffeine and Robusta beans consist of 1.7–4.0% caffeine.
+        The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
       </Header>
+
+      <GlassList glass={glass} />
     </>
-    );
-  }
-  
-  export default Glass;
+  );
+}
+export default Glass;
