@@ -1,4 +1,4 @@
-import GlassItem from "./GlassItem/GlassItem";
+import GlassItem from "./Glasstem/GlassItem";
 import classes from "./GlassList.module.css";
 
 function GlassList({ glassts }) {
