@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgb(205, 205, 252);  
-  color: black;
+  color: rgb(12, 12, 245);  
 }
 .Nav .container {
   display: flex;
