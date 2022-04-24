@@ -1,6 +1,9 @@
-import "./pages.css"
+import "./pages.css";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/solar.jpg";
+
+
+import headerImage from "../assets/header1.jpg";
+
 
 function Solar() {
   return (

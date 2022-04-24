@@ -1,9 +1,10 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/glass.jpg";
+import headerImage from "../assets/header1.jpg";
+
 import GlassList from "../components/GlassList/GlassList";
 
+import glassImage from "../assets/glass.jpg";
 
-import glassImage from "../assets/glass1.jpg";
 
 function Glass() {
   const glass = {
