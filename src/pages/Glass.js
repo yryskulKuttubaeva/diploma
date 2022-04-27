@@ -1,49 +1,24 @@
+import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/header1.jpg";
-
-import GlassList from "../components/GlassList/GlassList";
-
-import glassImage from "../assets/glass.jpg";
-
+import { getGlass } from "../data/glassa";
 
 function Glass() {
-  const glass = {
-    hazelnut: {
-      image: glassImage,
-      path: "/",
-      title: "Glass",
-      price: 10,
-    },
-    darkRoast: {
-      image: glassImage,
-      path: "/",
-      title: "Dark roast",
-      price: 12,
-    },
-    houseBlend: {
-      image: glassImage,
-      path: "/",
-      title: "House blend",
-      price: 14,
-    },
-    lightRoast: {
-      image: glassImage,
-      path: "/",
-      title: "Light roast",
-      price: 13,
-    }
-  };
+  const params = useParams();
+  const glass = getGlass(params.glassId);
+
+  if (!glass) {
+    return null;
+  }
 
   return (
     <>
       <Header
-        title="I good see!"
-        image={headerImage}>
-        The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
+        title={glass.title}
+        image={glass.image}>
+        {glass.description}
       </Header>
-
-      <GlassList glass={glass} />
     </>
   );
 }
+
 export default Glass;

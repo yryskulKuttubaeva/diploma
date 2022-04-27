@@ -12,13 +12,12 @@
   object-position: center;
 
   margin: 2rem 0;
-  /* border-radius: 150px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header section {
   position: absolute;
   bottom: -4rem;
-  right: -5rem;
+  left: 13rem;
   max-width: 500px;
   margin-right: 17rem;
 

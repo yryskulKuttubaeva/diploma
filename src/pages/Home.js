@@ -9,7 +9,6 @@ function Home() {
         title="Welcome to our optics shop"
         image={headerImage}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem culpa ab nam nostrum numquam labore veritatis.
-
       </Header>
     </>
   );
