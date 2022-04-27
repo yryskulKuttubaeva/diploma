@@ -10,24 +10,32 @@
   min-height: 380px;
   object-fit: cover;
   object-position: center;
+  border-radius: 2rem;
 
   margin: 2rem 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header section {
   position: absolute;
-  bottom: -4rem;
-  left: 13rem;
+  bottom:   1rem;
+  left: 9rem;
   max-width: 500px;
   margin-right: 17rem;
 
   background-color: rgb(226, 190, 221);
   color: rgb(131, 18, 134);
   padding: 0 2rem 0;
-  /* border-radius: 2rem; */
+  border-radius: 2rem;
   font-size: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header h1 {
   font-size: 2rem;
 }  
+@media (max-width: 600px) {
+  .Neader section {
+    display: none;
+    left: 300px;
+    bottom: 3rem;
+  }
+}

@@ -6,9 +6,9 @@ function Solar() {
   return (
     <>
       <Header
-       title = "Now i can see the cun"
+       title = "Eyes ok!"
         image={titleImage}>
-              If you're the owner of a residential or commercial building, use this guide to help decide if solar energy is right for you.
+              If you're the owner of a residential or. Welcome to optics
 
       </Header>
     </>
