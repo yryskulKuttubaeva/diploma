@@ -1,4 +1,4 @@
-import glassImage from "../assets/glass.jpg"
+import glassImage from "../assets/header.jpg"
 
   const glassts = [
    {
