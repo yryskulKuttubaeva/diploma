@@ -18,7 +18,7 @@
 .Header section {
   position: absolute;
   bottom:   1rem;
-  left: 13.5rem;
+  right: -12rem;
   max-width: 500px;
   margin-right: 17rem;
 
