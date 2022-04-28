@@ -7,6 +7,7 @@ function GlassItem({ glass }) {
       <img src={glass.image} alt="img" />
       <Link to={glass.path}>{glass.title}</Link>
       <div className={classes.price}>${glass.price}</div>
+      
     </div>
   );
 }

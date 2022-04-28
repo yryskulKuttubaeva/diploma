@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
-import { getGlass } from "../data/glassa";
-
+import {getGlass} from "../data/glassa"
 function Glass() {
   const params = useParams();
   const glass = getGlass(params.glassId);

@@ -19,13 +19,13 @@
 }
 .Header section {
   position: absolute;
-  bottom:   1rem;
+  bottom:   2rem;
   right: -12rem;
   max-width: 500px;
   margin-right: 17rem;
 
-  background-color: rgba(235, 154, 227, 0.644);
-  color: rgb(131, 18, 134);
+  background-color: rgba(252, 215, 250, 0.644);
+  color: rgb(153, 10, 163);  
   padding: 0 2rem 0;
   border-radius: 2rem;
   font-size: 1rem;
